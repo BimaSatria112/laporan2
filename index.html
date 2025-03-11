@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penerimaan Mahasiswa Baru</title>
+    <style>
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            background-image: url('rektorat.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: relative;
+        }
+
+        /* Add a dark overlay to the background image for better text contrast */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for the container */
+            padding: 50px;
+            border-radius: 20px; /* Rounded corners for a smoother look */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .container1 {
+            max-width: 900px;
+            background: rgba(219, 248, 151, 0.7); /* Slightly transparent background for the container */
+            padding: 50px;
+            border-radius: 30px; /* Larger rounded corners */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        .photo img {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        h1, h2, h3 {
+            margin: 5px 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for the table */
+        }
+
+        th, td {
+            border: 1px solid cornflowerblue;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+        th {
+            background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue header background */
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgba(255, 255, 224, 0.7); /* Light yellow for even rows */
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: rgba(240, 240, 240, 0.7); /* Light gray for odd rows */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container1">
+        <div class="container">
+        <h1>Universitas Negeri Padang</h1>
+        <h2>Laporan Penerimaan Mahasiswa Baru</h2>
+        <h3>Tahun Akademik 2025/2026</h3>
+
+        <div class="photo">
+            <img src="logounp.png" alt="Logo Universitas Negeri Padang">
+        </div></div>
+
+        <div class="container">
+        <h1>Fakultas Teknik</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>00001</td>
+                    <td>Ibnu Al Fatori</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Elektronika</td>
+                    <td>Informatika</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>00002</td>
+                    <td>Bima Satria</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Elektronika</td>
+                    <td>Informatika</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>00003</td>
+                    <td>Muhammad Rafi</td>
+                    <td>Laki - Laki</td>
+                    <td>SNBP</td>
+                    <td>Elektronika</td>
+                    <td>Informatika</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>00004</td>
+                    <td>Rika Pratiwi</td>
+                    <td>Laki - Laki</td>
+                    <td>Mandiri</td>
+                    <td>Elektronika</td>
+                    <td>Informatika</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>00005</td>
+                    <td>Joko Santoso</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Elektronika</td>
+                    <td>Informatika</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Ilmu Pendidikan</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>00001</td>
+                    <td>Hendra Gunawan</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Pendidikan Guru Sekolah Dasar</td>
+                    <td>Pendidikan Matematika</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>00002</td>
+                    <td>Siti Nurhaliza</td>
+                    <td>Perempuan</td>
+                    <td>SNBP</td>
+                    <td>Pendidikan Bahasa Inggris</td>
+                    <td>Pendidikan Teknologi Informasi</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>00003</td>
+                    <td>Rizky Pratama</td>
+                    <td>Laki - Laki</td>
+                    <td>Mandiri</td>
+                    <td>Pendidikan Matematika</td>
+                    <td>Pendidikan Kimia</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>00004</td>
+                    <td>Juniarti Rahmawati</td>
+                    <td>Perempuan</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Pendidikan Fisika</td>
+                    <td>Pendidikan Biologi</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>00005</td>
+                    <td>Andi Kurniawan</td>
+                    <td>Laki - Laki</td>
+                    <td>SNBP</td>
+                    <td>Pendidikan Kimia</td>
+                    <td>Pendidikan Bahasa Inggris</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>00006</td>
+                    <td>Desi Nurul</td>
+                    <td>Perempuan</td>
+                    <td>Mandiri</td>
+                    <td>Pendidikan Guru Sekolah Dasar</td>
+                    <td>Pendidikan Matematika</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>00007</td>
+                    <td>Fajar Prakoso</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Pendidikan Bahasa Inggris</td>
+                    <td>Pendidikan Teknologi Informasi</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+
+    <div class="container">
+        <h1>Fakultas Bahasa dan Seni</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nomor</th>
+            <th>Nomor Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jenis Kelamin</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>00001</td>
+            <td>Alvin Setiawan</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Sastra Inggris</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>00002</td>
+            <td>Putri Amelia</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Musik</td>
+            <td>Komposisi Musik</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>00003</td>
+            <td>Agus Santoso</td>
+            <td>Laki - Laki</td>
+            <td>Mandiri</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Bahasa dan Sastra Jepang</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>00004</td>
+            <td>Rika Pratiwi</td>
+            <td>Perempuan</td>
+            <td>Mandiri</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Sastra Indonesia</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>00005</td>
+            <td>Joko Santoso</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Sastra Inggris</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>00006</td>
+            <td>Indah Lestari</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Komunikasi</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>00007</td>
+            <td>Rudi Hartono</td>
+            <td>Laki - Laki</td>
+            <td>Mandiri</td>
+            <td>Pendidikan Bahasa dan Sastra Indonesia</td>
+            <td>Sastra Daerah</td>
+        </tr>
+    </tbody>
+</table>
+
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Pariwisata dan Perhotelan</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nomor</th>
+            <th>Nomor Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jenis Kelamin</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>00001</td>
+            <td>Amanda Dewi</td>
+            <td>Perempuan</td>
+            <td>UTBK - SNBT</td>
+            <td>Pariwisata</td>
+            <td>Manajemen Hotel</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>00002</td>
+            <td>Rudi Setiawan</td>
+            <td>Laki - Laki</td>
+            <td>Mandiri</td>
+            <td>Perhotelan</td>
+            <td>Akuntansi Perhotelan</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>00003</td>
+            <td>Fiona Natasha</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Pariwisata</td>
+            <td>Manajemen Pariwisata</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>00004</td>
+            <td>Aditya Pratama</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Perhotelan</td>
+            <td>Manajemen Hotel</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>00005</td>
+            <td>Shinta Lestari</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Perhotelan</td>
+            <td>Akuntansi Perhotelan</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>00006</td>
+            <td>Andi Prakoso</td>
+            <td>Laki - Laki</td>
+            <td>Mandiri</td>
+            <td>Pariwisata</td>
+            <td>Manajemen Pariwisata</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>00007</td>
+            <td>Desy Anggraini</td>
+            <td>Perempuan</td>
+            <td>UTBK - SNBT</td>
+            <td>Perhotelan</td>
+            <td>Manajemen Hotel</td>
+        </tr>
+    </tbody>
+</table>
+
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Ekonomi</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>00001</td>
+                    <td>Rina Putri</td>
+                    <td>Perempuan</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Ekonomi Pembangunan</td>
+                    <td>Manajemen Keuangan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>00002</td>
+                    <td>Fadli Rahman</td>
+                    <td>Laki - Laki</td>
+                    <td>Mandiri</td>
+                    <td>Akuntansi</td>
+                    <td>Akuntansi Keuangan</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>00003</td>
+                    <td>Aulia Syahputra</td>
+                    <td>Perempuan</td>
+                    <td>SNBP</td>
+                    <td>Ekonomi Pembangunan</td>
+                    <td>Manajemen Pemasaran</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>00004</td>
+                    <td>Johan Hermawan</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Akuntansi</td>
+                    <td>Akuntansi Perpajakan</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>00005</td>
+                    <td>Yuliana Pratiwi</td>
+                    <td>Perempuan</td>
+                    <td>Mandiri</td>
+                    <td>Ekonomi Pembangunan</td>
+                    <td>Manajemen Bisnis Internasional</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>00006</td>
+                    <td>Michael Jason</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Akuntansi</td>
+                    <td>Manajemen Keuangan</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>00007</td>
+                    <td>Intan Sari</td>
+                    <td>Perempuan</td>
+                    <td>SNBP</td>
+                    <td>Ekonomi Pembangunan</td>
+                    <td>Manajemen Operasi</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Ilmu Keolahragaan</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nomor</th>
+            <th>Nomor Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jenis Kelamin</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>00001</td>
+            <td>Agus Pratama</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Pendidikan Jasmani</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>00002</td>
+            <td>Siti Aisyah</td>
+            <td>Perempuan</td>
+            <td>Mandiri</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Manajemen Olahraga</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>00003</td>
+            <td>Rudi Hartono</td>
+            <td>Laki - Laki</td>
+            <td>SNBP</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Pelatihan Olahraga</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>00004</td>
+            <td>Andi Setiawan</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Pendidikan Olahraga</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>00005</td>
+            <td>Rina Febriana</td>
+            <td>Perempuan</td>
+            <td>Mandiri</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Manajemen Olahraga</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>00006</td>
+            <td>Faris Kurniawan</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Pelatihan Olahraga</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>00007</td>
+            <td>Yuliana Novita</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Ilmu Keolahragaan</td>
+            <td>Pendidikan Jasmani</td>
+        </tr>
+    </tbody>
+</table>
+
+        
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Ilmu Sosial</h1>
+        
+<table>
+    <thead>
+        <tr>
+            <th>Nomor</th>
+            <th>Nomor Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Jenis Kelamin</th>
+            <th>Jalur Masuk</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>00001</td>
+            <td>Siti Khadijah</td>
+            <td>Perempuan</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Sosial</td>
+            <td>Ilmu Pemerintahan</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>00002</td>
+            <td>Rico Ardiansyah</td>
+            <td>Laki - Laki</td>
+            <td>Mandiri</td>
+            <td>Ilmu Sosial</td>
+            <td>Hubungan Internasional</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>00003</td>
+            <td>Feby Amalia</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Ilmu Sosial</td>
+            <td>Psikologi</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>00004</td>
+            <td>Rudi Suryadi</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Sosial</td>
+            <td>Ilmu Komunikasi</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>00005</td>
+            <td>Jessica Purnama</td>
+            <td>Perempuan</td>
+            <td>Mandiri</td>
+            <td>Ilmu Sosial</td>
+            <td>Sosiologi</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>00006</td>
+            <td>Hendra Wijaya</td>
+            <td>Laki - Laki</td>
+            <td>UTBK - SNBT</td>
+            <td>Ilmu Sosial</td>
+            <td>Antropologi</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>00007</td>
+            <td>Indah Lestari</td>
+            <td>Perempuan</td>
+            <td>SNBP</td>
+            <td>Ilmu Sosial</td>
+            <td>Ilmu Sosial dan Politik</td>
+        </tr>
+    </tbody>
+</table>
+
+        
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Matematika dan Ilmu Pengetahuan Alam</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>00001</td>
+                    <td>Alif Fitriani</td>
+                    <td>Perempuan</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Matematika</td>
+                    <td>Matematika Terapan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>00002</td>
+                    <td>Gilang Prasetyo</td>
+                    <td>Laki - Laki</td>
+                    <td>Mandiri</td>
+                    <td>Fisika</td>
+                    <td>Fisika Teoretis</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>00003</td>
+                    <td>Rita Suryani</td>
+                    <td>Perempuan</td>
+                    <td>SNBP</td>
+                    <td>Kimia</td>
+                    <td>Kimia Organik</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>00004</td>
+                    <td>Riko Kurniawan</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Biologi</td>
+                    <td>Bioteknologi</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>00005</td>
+                    <td>Fani Mulyani</td>
+                    <td>Perempuan</td>
+                    <td>Mandiri</td>
+                    <td>Fisika</td>
+                    <td>Fisika Medis</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>00006</td>
+                    <td>Aldi Sucipto</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Matematika</td>
+                    <td>Matematika Komputasi</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>00007</td>
+                    <td>Intan Cahyani</td>
+                    <td>Perempuan</td>
+                    <td>SNBP</td>
+                    <td>Kimia</td>
+                    <td>Kimia Analitik</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+    </div>
+
+    <div class="container">
+        <h1>Fakultas Pascasarjana</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jalur Masuk</th>
+                    <th>Departemen</th>
+                    <th>Prodi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>00001</td>
+                    <td>Hendra Setiawan</td>
+                    <td>Laki - Laki</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Ekonomi</td>
+                    <td>Manajemen Keuangan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>00002</td>
+                    <td>Clara Susanti</td>
+                    <td>Perempuan</td>
+                    <td>Mandiri</td>
+                    <td>Akuntansi</td>
+                    <td>Akuntansi Perpajakan</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>00003</td>
+                    <td>David Kurniawan</td>
+                    <td>Laki - Laki</td>
+                    <td>SNBP</td>
+                    <td>Manajemen</td>
+                    <td>Manajemen Pemasaran</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>00004</td>
+                    <td>Siti Rahmawati</td>
+                    <td>Perempuan</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Bisnis</td>
+                    <td>Manajemen Bisnis Internasional</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>00005</td>
+                    <td>Jaka Prasetya</td>
+                    <td>Laki - Laki</td>
+                    <td>Mandiri</td>
+                    <td>Akuntansi</td>
+                    <td>Akuntansi Keuangan</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>00006</td>
+                    <td>Indah Lestari</td>
+                    <td>Perempuan</td>
+                    <td>UTBK - SNBT</td>
+                    <td>Ekonomi</td>
+                    <td>Manajemen Sumber Daya Manusia</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>00007</td>
+                    <td>Samuel Alexander</td>
+                    <td>Laki - Laki</td>
+                    <td>SNBP</td>
+                    <td>Manajemen</td>
+                    <td>Manajemen Operasi</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+    </div>
+
+
+    
+
+    <!-- More content goes here... -->
+
+</body>
+</html>
